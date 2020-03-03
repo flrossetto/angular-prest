@@ -1,16 +1,17 @@
 <p align="center">
-  <h1 align="center">Angular Prest</h1>
-  <p align="center">It is a wrapper service to use with Prest API.</p>
+  <h1 align="center">Angular pREST</h1>
+  <p align="center">It is a wrapper service to use with pREST API.</p>
+  <p align="center">NPM: https://www.npmjs.com/package/angular-prest</p>
 </p>
 
-## What is Prest?
+## What is pREST?
 
 - A fully RESTful API from any existing PostgreSQL database written in Go http://postgres.rest.
 
 ## Install
 
 ```bash
-npm install 
+npm install angular-prest --save
 ```
 
 ## Example use:
@@ -22,7 +23,7 @@ Ex:
 yours app.module.ts
 
 ```
-import { AngularPrestModule } from './prest.provider';
+import { AngularPrestModule } from 'angular-prest';
 ```
 
 and put AngularPrestModule in imports:
@@ -50,7 +51,7 @@ component example!
 ```
 import { Component } from '@angular/core';
 
-import { AngularPrestService } from '@prest/angular-prest';
+import { AngularPrestService } from 'angular-prest';
 
 
 @Component({
